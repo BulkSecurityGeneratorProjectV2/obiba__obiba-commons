@@ -5,7 +5,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <name>OBiBa File System</name>
+  <name>OBiBa MongoDB Virtual File System</name>
 
   <parent>
     <groupId>org.obiba.commons</groupId>
@@ -13,7 +13,7 @@
     <version>1.8-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
-  <artifactId>obiba-fs</artifactId>
+  <artifactId>obiba-mongodb-fs</artifactId>
 
   <dependencies>
     <dependency>
@@ -22,7 +22,7 @@
     </dependency>
     <dependency>
       <groupId>org.mongodb</groupId>
-      <artifactId>mongodb-java-driver</artifactId>
+      <artifactId>mongo-java-driver</artifactId>
     </dependency>
   </dependencies>
 

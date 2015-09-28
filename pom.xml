@@ -30,7 +30,7 @@
     <module>obiba-wicket</module>
     <module>obiba-mongodb</module>
     <module>obiba-password-hasher</module>
-    <module>obiba-fs</module>
+    <module>obiba-mongodb-fs</module>
   </modules>
 
   <dependencyManagement>
@@ -305,7 +305,7 @@
 
       <dependency>
         <groupId>org.mongodb</groupId>
-        <artifactId>mongodb-java-driver</artifactId>
+        <artifactId>mongo-java-driver</artifactId>
         <version>${mongodb.version}</version>
       </dependency>
 
