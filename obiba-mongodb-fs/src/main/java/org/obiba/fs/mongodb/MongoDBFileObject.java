@@ -39,4 +39,10 @@ public class MongoDBFileObject extends AbstractFileObject {
   protected InputStream doGetInputStream() throws Exception {
     return null;
   }
+
+  @Override
+  protected boolean doIsHidden() throws Exception {
+    return getName().getBaseName().startsWith(".");
+  }
+
 }
